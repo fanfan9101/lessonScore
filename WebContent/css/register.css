@@ -1,0 +1,190 @@
+@charset "UTF-8";
+body {
+	background: url(../img/regi_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	height: 600px;
+	color: #FFFFFF;
+	FONT-FAMILY: FZShuTi;
+}
+
+main {
+	margin-top: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 530px;
+	height: 440px;
+	background-color: dimgray;
+	opacity: 0.8;
+	border-radius: 50px;
+	FONT-FAMILY: FZShuTi;
+}
+
+p {
+	padding-top: 30px;
+	color: lawngreen;
+	font-weight: 700;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 6px;
+	FONT-FAMILY: FZShuTi;
+}
+
+input {
+	/* 可去除边框 */
+	outline: none;
+	border-radius: 50px;
+	background-color: lightgray;
+	border: -webkit-link;
+	font-size: 20px;
+	font-weight: 900;
+	width: 285px;
+	height: 30px;
+	/* 透明度 */
+	opacity: 0.5;
+	margin: 10px 0px;
+	/* 改变光标颜色 */
+	caret-color: lawngreen;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 3px;
+	FONT-FAMILY: FZShuTi;
+}
+
+input:focus {
+	border-color: blue;
+	box-shadow: 0 0 25px blue;
+}
+
+input::-webkit-input-placeholder {
+	color: black;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 3px;
+	font-size: 15px;
+	font-weight:900;
+	FONT-FAMILY: FZShuTi;
+}
+
+#inputLeft93 {
+	padding-left: 93px;
+	margin-top: 5px;
+	letter-spacing: 2px;
+	font-size:20px;
+	font-weight:700;
+	margin-left:18px;
+	FONT-FAMILY: FZShuTi;
+}
+
+#radioStyle1 {
+	zoom: 50%;
+	width: 70px;
+	margin-left: 380px;
+	background: #7CFC00;
+	FONT-FAMILY: FZShuTi;
+}
+
+#radioStyle2 {
+	zoom: 50%;
+	width: 70px;
+	margin-left: 80px;
+	FONT-FAMILY: FZShuTi;
+}
+
+#radioStyle3 {
+	zoom: 50%;
+	width: 70px;
+	margin-left: 115px;
+	FONT-FAMILY: FZShuTi;
+}
+
+.inputLeft80 {
+	padding-left: 93px;
+	margin-top: 5px;
+	letter-spacing: 2px;
+	font-size:20px;
+	font-weight:700;
+	FONT-FAMILY: FZShuTi;
+}
+
+.inputLeft40 {
+	padding-left: 40px;
+	margin-top: 5px;
+	letter-spacing: 2px;
+	font-size:20px;
+	font-weight:700;
+	margin-left:9px;
+	FONT-FAMILY: FZShuTi;
+}
+
+li {
+	width: 70px;
+	line-height: 30px;
+	text-align: center;
+	list-style: none;
+	background-color: black;
+	border-radius: 25px;
+	opacity: 0.8;
+	color: lawngreen;
+	FONT-FAMILY: FZShuTi;
+
+}
+
+.li-left {
+	float: left;
+	margin-left: 150px;
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	width:70px;
+	text-align:center;
+	padding-left:5px;
+	FONT-FAMILY: FZShuTi;
+}
+
+.li-right {
+	margin-right: 130px;
+	float: right;
+	height:30px;
+	line-height:30px;
+	font-size:18px;
+	width:70px;
+	text-align:center;
+	padding-left:5px;
+	FONT-FAMILY: FZShuTi;
+}
+
+a {
+	text-decoration: none;
+	color: lawngreen;
+	font-weight: 900px;
+	line-height: 10px;
+	height:20px;
+	FONT-FAMILY: FZShuTi;
+}
+
+#conPasswordErr {
+	margin-left: 180px;
+	font-size: 15px;
+	height: 20px;
+	color:lawngreen;
+	margin-bottom:5px;
+	FONT-FAMILY: FZShuTi;
+}
+button{
+	outline: none;
+	width: 73px;
+	height:30px;
+	font-size:18px;
+	text-decoration: none;
+	font-weight: 900px;
+	line-height: 30px;
+	list-style: none;
+	background-color: black;
+	border-radius: 25px;
+	opacity: 0.8;
+	color: lawngreen;
+	text-align: center;
+	FONT-FAMILY: FZShuTi;
+	margin-left:-5px;
+}

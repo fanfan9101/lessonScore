@@ -1,0 +1,101 @@
+@charset "UTF-8";
+table {
+	font-size: 15px;
+}
+
+
+/* 当鼠标悬停至课程的名字上面时 */
+.show:hover .show_more {
+	display: block;
+}
+
+/* 实现实心气泡对话框 */
+.show_more {
+	margin: 50px 5px;
+	width: 200px;
+	height: 100px;
+	border-radius: 25px;
+	border: 2px solid lawngreen;
+	/* 相对于浏览器窗口进行定位 */
+	position: fixed;
+	top: 270px;
+	background-color: lawngreen;
+	display: none;
+}
+
+/* 伪类元素为行类元素，可通过display来实现行内元素的转化 */
+/* before是为了增加对话框的三角尖尖虽然此时不是空心的*/
+.show_more::before {
+	/* content用于定义插入的元素 必须有值，至少是空的*/
+	content: '';
+	width: 0;
+	height: 0;
+	/* border是显示变宽的 */
+	border: 20px solid;
+	position: absolute;
+	/* 跟top是一样的用法bottom: 20px; */
+	top: -30px;
+	left: 120px;
+	border-color: transparent transparent lawngreen;
+	z-index: 2;
+}
+
+/* 修改input file标签样式 */
+.file {
+	margin-top: 10px;
+	position: relative;
+	display: inline-block;
+	border: 1px solid #99D3F5;
+	border-radius: 5px;
+	overflow: hidden;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 15px;
+	height: 15px;
+	text-align: center;
+}
+
+.file input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.file:hover {
+	background: #AADFFD;
+	border-color: #78C3F3;
+	color: #004974;
+	text-decoration: none;
+}
+
+button {
+	border: 1px solid #99D3F5;
+	border-radius: 5px;
+	background-color: white;
+}
+
+button:hover {
+	background: #AADFFD;
+	border-color: #78C3F3;
+	color: #004974;
+	text-decoration: none;
+}
+
+button input {
+	position: absolute;
+	font-size: 100px;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+
+article {
+	position: absolute;
+	top: 180px;
+	left: 1070px;
+	width: 400px;
+	height: 560px;
+	background-color: white;
+}

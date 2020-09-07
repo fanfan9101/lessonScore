@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* 间隔 */
+.jiange {
+	height: 10px;
+	background-color: lightgray;
+}
+
+.welcome {
+	height: 150px;
+	border-radius: 0 50px 0 0;
+}
+
+.checkIn {
+	width: 340px;
+	background-color: seagreen;
+	height: 100px;
+	color: white;
+	letter-spacing: 3px;
+	padding: 15px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	/* 设置过渡时间和效果 */
+	transition: all 0.6s;
+	z-index: 2;
+
+}
+
+/* 效果 */
+.checkIn:hover {
+	transform: scale(1.055);
+}
+
+.checkIn a {
+	padding: 10px 20px;
+	color: white;
+}
+
+.checkIn a:hover {
+	text-decoration: underline;
+	font-size: 19px;
+}
+
+.checkIn input {
+	font-weight: 900;
+	opacity: 1;
+	letter-spacing: 3px;
+
+}
+
+.checkIn input::-webkit-input-placeholder {
+	color: seagreen;
+}
+
+.checkIn button {
+	margin-left: 150px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.fontSize {
+	font-size: 19px;
+}
+
+.homework {
+	height: 278px;
+	padding: 15px 20px;
+	background-color: royalblue;
+	transition: all 0.6s;
+	z-index: 2;
+	border-radius: 0 0px 50px 0;
+	color: white;
+	letter-spacing: 3px;
+	/* 主要是为了让作业详情在上面 */
+	position: relative;
+}
+
+.homework a {
+	padding: 10px 20px;
+	color: white;
+}
+
+/* 效果 */
+.homework:hover {
+	transform: scale(1.055);
+}
+
+.homework a:hover {
+	text-decoration: underline;
+	font-size: 19px;
+}
+
+.homework input {
+	font-weight: 900;
+	opacity: 1;
+	border-radius: 25px;
+	width: 230px;
+
+}
+
+.homework input::-webkit-input-placeholder {
+	color: seagreen;
+}
+
+.homework button {
+	margin-left: 150px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+textarea {
+	text-align: center;
+	height: 150px;
+	border-radius: 20px;
+	font-size: 15px;
+	position: absolute;
+	top: 70px;
+	left: 120px;
+	/* 修改它的默认样式 好像好多都是如此 */
+	outline: none;
+	/* 取消谷歌浏览器它可拖动放大的功能 */
+	resize: none;
+	color: black;
+	background-color: lightgray;
+	font-weight: 900;
+	FONT-FAMILY: FZShuTi;
+	opacity: 1;
+	font-size: 17px;
+	letter-spacing: 3px;
+}
+
+textarea:focus {
+	border-color: blue;
+	box-shadow: 0 0 25px blue;
+}
+
+textarea::-webkit-input-placeholder {
+	color: blue;
+	text-align: center;
+	font-weight: 800;
+	letter-spacing: 3px;
+	font-size: 14px;
+	FONT-FAMILY: FZShuTi;
+}
+
+/* 下面是为了让作业详情布局更好的操作 */
+.inform {
+	font-size: 19px;
+	position: absolute;
+	top: 75px;
+	border: none;
+	letter-spacing: 3px;
+}
+
+/* 查看学生签到的css */
+.checkInNumber {
+	width: 382px;
+	height: 440px;
+	z-index: 2;
+	border-radius: 0 0px 50px 0;
+}
+
+.checkInNumber table {
+	width: 382px;
+	margin-left: -1px;
+}
+
+.checkInNumber a:hover {
+	text-decoration: underline;
+}
+/* 查看学生作业的css */
+.homeworkNumber {
+	width: 382px;
+	height: 440px;
+	z-index: 2;
+	border-radius: 0 0px 50px 0;
+}
+
+.homeworkNumber table {
+	width: 382px;
+	margin-left: -1px;
+}
+
+.homeworkNumberr a:hover {
+	text-decoration: underline;
+}
+
+table th{
+	font-size:24px;
+}

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body {
+	FONT-FAMILY: FZShuTi;
+}
+
+.course {
+	margin: 0 auto;
+	width: 600px;
+	font-size: 22px;
+	padding-top:100px;
+}
+
+#input1 {
+	padding: 5px 15px;
+}
+
+input {
+	/* 可去除边框 */
+	outline: none;
+	border-radius: 50px;
+	background-color: lightgray;
+	border: -webkit-link;
+	font-weight: 900;
+	width: 260px;
+	height: 30px;
+	/* 透明度 */
+	opacity: 0.5;
+	margin: 10px 0px;
+	/* 改变光标颜色 */
+	caret-color: lawngreen;
+	cursor: pointer;
+	text-align: center;
+	font-size: 22px;
+}
+
+input:focus {
+	border-color: blue;
+	box-shadow: 0 0 25px blue;
+}
+
+input::-webkit-input-placeholder {
+	color: blue;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 18px;
+	FONT-FAMILY: FZShuTi;
+}
+
+.inputLeft1 {
+	padding-left: 170px;
+	font-size:23px;
+}
+
+.inputLeft2 {
+	padding-left: 157px;
+	font-size:23px;
+	background-color:greem;
+}
+
+.inputLeft3 {
+	padding-left: 135px;
+	font-size:23px;
+}
+
+.inputLeft4 {
+	padding-left: 90px;
+	font-size:23px;
+}
+
+button {
+	margin-left: 320px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+input {
+	/* 可去除边框 */
+	outline: none;
+	border-radius: 50px;
+	background-color: lightgray;
+	border: -webkit-link;
+	font-weight: 700;
+	width: 220px;
+	height: 30px;
+	/* 透明度 */
+	opacity: 0.5;
+	margin: 10px 0px;
+	/* 改变光标颜色 */
+	caret-color: lawngreen;
+	cursor: pointer;
+	text-align: center;
+	font-size: 17px;
+	FONT-FAMILY: FZShuTi;
+}
+
+input:focus {
+	border-color: blue;
+	box-shadow: 0 0 25px blue;
+}
+
+input::-webkit-input-placeholder {
+	color: blue;
+	text-align: center;
+	font-weight: 800;
+	letter-spacing: 3px;
+	font-size: 14px;
+	FONT-FAMILY: FZShuTi;
+}
+
+button {
+	font-size: 17px;
+	font-weight: 700;
+	width: 60px;
+	height: 30px;
+	letter-spacing: 3px;
+}
+
+.inputLeft80 {
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.inputLeft1 {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	width: 50px;
+
+}
+
+.aLeft1 {
+	font-size: 17px;
+	font-weight: 800;
+}
+
+a:hover {
+	text-decoration: underline;
+}
